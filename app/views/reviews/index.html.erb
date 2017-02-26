@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Reviews</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Rating</th>
+      <th>Comment</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @reviews.each do |review| %>
+      <tr>
+        <td><%= review.name %></td>
+        <td><%= review.rating %></td>
+        <td><%= review.comment %></td>
+        <td><%= link_to 'Show', restaurant_reviews_url%></td>
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Review', restaurants_path %>

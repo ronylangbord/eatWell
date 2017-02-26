@@ -21,10 +21,22 @@
     <%= f.text_field :cuisine %>
   </div>
 
-  <div class="field">
-    <%= f.label :rating %>
-    <%= f.number_field :rating %>
-  </div>
+
+    <div class="field">
+      <%= f.label :address %>
+      <%= f.text_field :address %>
+    </div>
+
+    <div class="field">
+      <%= f.label :max_delivery_time %>
+      <%= f.text_field :max_delivery_time %>
+    </div>
+
+    <div class="field">
+      <%= f.label :accepts_10bis %>
+      <%= f.label :accepts_10bis, "Yes", :value => "true"  %> <%= f.radio_button :accepts_10bis, true %>
+      <%= f.label :accepts_10bis, "No", :value => "false" %> <%= f.radio_button :accepts_10bis, false, :checked => true %>
+    </div>
 
   <div class="actions">
     <%= f.submit %>

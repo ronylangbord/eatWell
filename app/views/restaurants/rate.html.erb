@@ -1,0 +1,13 @@
+<h1>Hello from rate</h1>
+
+<%= render 'form_rate', reviews: @reviews%>
+
+
+<h2>  All restaurants' reviews:  </h2>
+<% @reviews.each do |review| %>
+    <tr>
+      <td><h3> Name: <%= review.name %>:</h3></td>
+      <td>Rating: <%= review.rating %></td>
+      <td>Comment: <%= review.comment%></td>
+    </tr>
+<% end %>

@@ -16,15 +16,26 @@
     <%= f.text_field :name %>
   </div>
 
-  <div class="field">
-    <%= f.label :cuisine %>
-    <%= f.text_field :cuisine %>
-  </div>
+    <div class="field">
+      <%= f.label :cuisine %>
+      <%= f.text_field :cuisine %>
+    </div>
 
-  <div class="field">
-    <%= f.label :rating %>
-    <%= f.number_field :rating %>
-  </div>
+    <div class="field">
+      <%= f.label :address %>
+      <%= f.text_field :address %>
+    </div>
+
+    <div class="field">
+      <%= f.label :max_delivery_time %>
+      (in minutes) <br>
+      <%= f.number_field :max_delivery_time%>
+    </div>
+
+    <div class="field">
+      <%= f.label :accepts_10bis %>
+      <%= f.text_field :accepts_10bis %>
+    </div>
 
   <div class="actions">
     <%= f.submit %>

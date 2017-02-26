@@ -1,0 +1,7 @@
+
+<%= form_for @reviews do |f| %>
+    <%= f.text_field :name %>
+    <%= f.text_field :rating %>
+    <%= f.text_area :body, size: "60x12" %>
+    <%= f.submit "Create" %>
+<% end %>

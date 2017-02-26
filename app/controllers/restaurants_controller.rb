@@ -1,15 +1,23 @@
 class RestaurantsController < ApplicationController
-  before_action :set_restaurant, only: [:show, :edit, :update, :destroy]
+  before_action :set_restaurant, only: [:show, :edit, :update, :destroy, :rate]
 
   # GET /restaurants
   # GET /restaurants.json
   def index
     @restaurants = Restaurant.all
+
+  end
+
+  # # GET /restaurants/1/rate
+  def rate
+    @reviews = Review.all
   end
 
   # GET /restaurants/1
   # GET /restaurants/1.json
   def show
+    @restaurant = Restaurant.find(params[:id])
+    @new_review = @restaurant.reviews.build
   end
 
   # GET /restaurants/new
@@ -20,6 +28,7 @@ class RestaurantsController < ApplicationController
   # GET /restaurants/1/edit
   def edit
   end
+
 
   # POST /restaurants
   # POST /restaurants.json

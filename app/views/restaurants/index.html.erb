@@ -19,8 +19,7 @@
       <tr>
         <td><%= restaurant.name %></td>
         <td><%= restaurant.cuisine %></td>
-        <td><%= restaurant.rating %></td>
-        <td><%= restaurant.accepts_10bis %></td>
+        <td><%= restaurant.rating %></td><td><%= restaurant.accepts_10bis %></td>
         <td><%= link_to 'Show', restaurant %></td>
         <td><%= link_to 'Edit', edit_restaurant_path(restaurant) %></td>
         <td><%= link_to 'Destroy', restaurant, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -29,6 +28,6 @@
   </tbody>
 </table>
 
-<br>
+
 
 <%= link_to 'New Restaurant', new_restaurant_path %>

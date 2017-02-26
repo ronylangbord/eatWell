@@ -30,10 +30,11 @@ class ReviewsController < ApplicationController
   def create
     @restaurant = Restaurant.find(params[:restaurant_id])
     @review = @restaurant.reviews.new(review_params)
-    calc_rating(@review)
+
 
     respond_to do |format|
       if @review.save
+        calc_rating(@review)
         format.html { redirect_to restaurant_reviews_url, notice: 'Review was successfully created.' }
         format.json { render :show, status: :created, location: @review }
       else

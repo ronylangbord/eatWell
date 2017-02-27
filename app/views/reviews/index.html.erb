@@ -18,8 +18,9 @@
         <td><%= review.name %></td>
         <td><%= review.rating %></td>
         <td><%= review.comment %></td>
-        <td><%= link_to 'Show', restaurant_reviews_url%></td>
-
+        <td><%= link_to 'Show', restaurant_review_url({:id => review.id})%></td>
+        <td><%= link_to 'Edit', edit_restaurant_review_url({:id => review.id})%></td>
+        <td><%= link_to 'Destroy', [@restaurant, review], method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

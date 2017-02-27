@@ -25,6 +25,7 @@
         <td><%= link_to 'Edit', edit_restaurant_path(restaurant) %></td>
         <td><%= link_to 'Destroy', restaurant, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         <td><%= link_to 'Rate me!', new_restaurant_review_path(restaurant) %></td>
+        <td><%= link_to 'View reviews table', restaurant_reviews_path(restaurant) %></td>
       </tr>
     <% end %>
   </tbody>

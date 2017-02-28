@@ -18,8 +18,8 @@ class ReviewsController < ApplicationController
   # GET /reviews/new
   def new
     @review = Review.new
-    @reviews = Review.all
-    @restaurant = Restaurant.find(params[:restaurant_id])
+    # @reviews = Review.all
+    # @restaurant = Restaurant.find(params[:restaurant_id])
   end
 
   # GET /reviews/1/edit
@@ -31,11 +31,12 @@ class ReviewsController < ApplicationController
   def create
     @restaurant = Restaurant.find(params[:restaurant_id])
     @review = @restaurant.reviews.new(review_params)
+    restaurant_id = params[:restaurant_id]
 
 
     respond_to do |format|
       if @review.save
-        calc_rating(@review)
+        # calc_rating(restaurant_id)
         format.html { redirect_to restaurant_reviews_url, notice: 'Review was successfully created.' }
         format.json { render :show, status: :created, location: @review }
       else
@@ -63,7 +64,7 @@ class ReviewsController < ApplicationController
   # DELETE /reviews/1.json
   def destroy
     @restaurant = Restaurant.find(params[:restaurant_id])
-    @review = @restaurant.reviews.find(params[:id]);
+    @review = @restaurant.reviews.find(params[:id])
     @review.destroy
     respond_to do |format|
       format.html { redirect_to @restaurant, notice: 'Review was successfully destroyed.' }
@@ -71,11 +72,22 @@ class ReviewsController < ApplicationController
     end
   end
 
-  private
+  def calc_rating(restaurant_id)
 
-    def set_restaurant
+    @restaurant = Restaurant.find(restaurant_id)
+
+  unless @restaurant.reviews.empty?
+    @restaurant.rating = @restaurant.reviews.average(:rating)
+  end
+
+  @restaurant.save!
+end
+
+private
+
+  def set_restaurant
     @restaurant = Restaurant.find(params[:restaurant_id])
-    end
+  end
 
   # Use callbacks to share common setup or constraints between actions.
   def set_review
@@ -83,23 +95,10 @@ class ReviewsController < ApplicationController
     @review = @restaurant.reviews.find(params[:id])
   end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def review_params
-      params.require(:review).permit(:name, :rating, :comment)
-    end
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def review_params
+    params.require(:review).permit(:name, :rating, :comment)
+  end
 
-
-  def calc_rating(curr_review)
-
-    @restaurant = Restaurant.find(params[:restaurant_id])
-
-    if Restaurant.find(params[:restaurant_id]).reviews.empty?
-        @restaurant.rating = curr_review.rating
-    else
-      @restaurant.rating = @restaurant.reviews.average(:rating)
-    end
-
-    @restaurant.save
-    end
 
 end

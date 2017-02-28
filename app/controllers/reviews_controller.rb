@@ -36,7 +36,6 @@ class ReviewsController < ApplicationController
 
     respond_to do |format|
       if @review.save
-        # calc_rating(restaurant_id)
         format.html { redirect_to restaurant_reviews_url, notice: 'Review was successfully created.' }
         format.json { render :show, status: :created, location: @review }
       else

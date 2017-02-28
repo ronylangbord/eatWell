@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1351efc3-c72d-4929-98eb-ea52b15dd7ef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/eatwell.iml" afterPath="$PROJECT_DIR$/.idea/eatwell.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/reviews_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/reviews_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/restaurant.rb" afterPath="$PROJECT_DIR$/app/models/restaurant.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/review.rb" afterPath="$PROJECT_DIR$/app/models/review.rb" />
@@ -26,31 +21,76 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/eatwell@POST_create_with_valid_params_creates_a_new_restaurant__eatwell.coverage" NAME="POST create with valid params creates a new restaurant: eatwell Coverage Results" MODIFIED="1488210081466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
     <SUITE FILE_PATH="coverage/eatwell@ReviewsController_calculating_restaurant_rating__eatwell.coverage" NAME="ReviewsController calculating restaurant rating: eatwell Coverage Results" MODIFIED="1488232806788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
-    <SUITE FILE_PATH="coverage/eatwell@Restaurant_calc_what__eatwell.coverage" NAME="Restaurant calc_what: eatwell Coverage Results" MODIFIED="1488200661283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
-    <SUITE FILE_PATH="coverage/eatwell@review.coverage" NAME="review Coverage Results" MODIFIED="1488201104198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="eatwell" />
-    <SUITE FILE_PATH="coverage/eatwell@Restaurant_restaurant__eatwell.coverage" NAME="Restaurant restaurant: eatwell Coverage Results" MODIFIED="1488208420262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_data_validation__eatwell.coverage" NAME="Restaurant data validation: eatwell Coverage Results" MODIFIED="1488295906935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_Rating_checks_calc_rating_of_restaurant_who_has_couple_of_reviews__eatwell.coverage" NAME="Restaurant Rating checks calc rating of restaurant who has couple of reviews: eatwell Coverage Results" MODIFIED="1488299315831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
     <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_POST_create_renders_the__index_view__eatwell.coverage" NAME="RestaurantsController POST create renders the :index view: eatwell Coverage Results" MODIFIED="1488212410337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
     <SUITE FILE_PATH="coverage/eatwell@ReviewsController_POST_create_renders_the__index_view__eatwell.coverage" NAME="ReviewsController POST create renders the :index view: eatwell Coverage Results" MODIFIED="1488225614574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
     <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_GET__show__renders_the__show_view__eatwell.coverage" NAME="RestaurantsController GET 'show' renders the :show view: eatwell Coverage Results" MODIFIED="1488212956366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_check_rating_default__eatwell.coverage" NAME="Restaurant check rating default: eatwell Coverage Results" MODIFIED="1488271496460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_POST_create_should_create_new_restaurant__eatwell.coverage" NAME="RestaurantsController POST create should create new restaurant: eatwell Coverage Results" MODIFIED="1488301406736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_GET_show_renders_the_show_view__eatwell.coverage" NAME="RestaurantsController GET#show renders the show view: eatwell Coverage Results" MODIFIED="1488285039682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
     <SUITE FILE_PATH="coverage/eatwell@calc_what__restaurant_spec_rb___eatwell.coverage" NAME="calc_what (restaurant_spec.rb): eatwell Coverage Results" MODIFIED="1488200461175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_GET_should_render_the_edit_view__eatwell.coverage" NAME="ReviewsController GET should render the edit view: eatwell Coverage Results" MODIFIED="1488285557608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_calc_rating__eatwell.coverage" NAME="Restaurant calc rating: eatwell Coverage Results" MODIFIED="1488279009497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@calc_rating_method_calculating_restaurant_rating__eatwell.coverage" NAME="calc rating method calculating restaurant rating: eatwell Coverage Results" MODIFIED="1488267873375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_POST_should_create_new_review__eatwell.coverage" NAME="ReviewsController POST should create new review: eatwell Coverage Results" MODIFIED="1488291323314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Revie__w__type___model_data_validation__eatwell.coverage" NAME="Revie  w, type: :model data validation: eatwell Coverage Results" MODIFIED="1488295458916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Review__eatwell.coverage" NAME="Review: eatwell Coverage Results" MODIFIED="1488295745561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Review_calc_rating_method__eatwell.coverage" NAME="Review calc rating method: eatwell Coverage Results" MODIFIED="1488268584663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_PUT_update__eatwell.coverage" NAME="ReviewsController PUT update: eatwell Coverage Results" MODIFIED="1488288320788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_check_that_name_and_address_are_not_nil__eatwell.coverage" NAME="Restaurant check that name and address are not nil: eatwell Coverage Results" MODIFIED="1488271685896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_check_that_restaurant_isnot_nil__eatwell.coverage" NAME="Restaurant check that restaurant isnot nil: eatwell Coverage Results" MODIFIED="1488271834184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_Rating_checks_calc_rating_of_restaurant_when_first_review_is_added__eatwell.coverage" NAME="Restaurant Rating checks calc rating of restaurant when first review is added: eatwell Coverage Results" MODIFIED="1488300668376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant__eatwell.coverage" NAME="Restaurant: eatwell Coverage Results" MODIFIED="1488300871106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@ReviewsController__eatwell.coverage" NAME="ReviewsController: eatwell Coverage Results" MODIFIED="1488295221917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_POST_create_creates_new_review__eatwell.coverage" NAME="ReviewsController POST create creates new review: eatwell Coverage Results" MODIFIED="1488232669508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_GET_show_renders_the_show_view___eatwell.coverage" NAME="RestaurantsController GET#show renders the show view : eatwell Coverage Results" MODIFIED="1488273558847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_POST_create__eatwell.coverage" NAME="RestaurantsController POST create: eatwell Coverage Results" MODIFIED="1488229811517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@RestaurantsController__eatwell.coverage" NAME="RestaurantsController: eatwell Coverage Results" MODIFIED="1488301414019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_type__model__eatwell.coverage" NAME="Restaurant type :model: eatwell Coverage Results" MODIFIED="1488202280770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_GET_new__eatwell.coverage" NAME="RestaurantsController GET#new: eatwell Coverage Results" MODIFIED="1488273869164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Review_test_update_rating_for_restaurant_should_receive_update_rating__eatwell.coverage" NAME="Review test update rating for restaurant should receive update rating: eatwell Coverage Results" MODIFIED="1488292123796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_DELETE__eatwell.coverage" NAME="ReviewsController DELETE: eatwell Coverage Results" MODIFIED="1488301474268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_calc_rating_method__eatwell.coverage" NAME="Restaurant calc rating method: eatwell Coverage Results" MODIFIED="1488267947479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@POST_create__eatwell.coverage" NAME="POST create: eatwell Coverage Results" MODIFIED="1488210786500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@calc_rating_method__eatwell.coverage" NAME="calc rating method: eatwell Coverage Results" MODIFIED="1488267894375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Review_calc_rating_method_calculating_restaurant_rating__eatwell.coverage" NAME="Review calc rating method calculating restaurant rating: eatwell Coverage Results" MODIFIED="1488268695207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_DELETE_should_delete_review__eatwell.coverage" NAME="ReviewsController DELETE should delete review: eatwell Coverage Results" MODIFIED="1488301930649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@POST_create_with_valid_params_creates_a_new_restaurant__eatwell.coverage" NAME="POST create with valid params creates a new restaurant: eatwell Coverage Results" MODIFIED="1488210081466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_GET_index_renders_the_edit_view__eatwell.coverage" NAME="RestaurantsController GET#index renders the edit view: eatwell Coverage Results" MODIFIED="1488285664887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_calc_what__eatwell.coverage" NAME="Restaurant calc_what: eatwell Coverage Results" MODIFIED="1488200661283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_restaurant__eatwell.coverage" NAME="Restaurant restaurant: eatwell Coverage Results" MODIFIED="1488208420262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@review.coverage" NAME="review Coverage Results" MODIFIED="1488268514094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec/models" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Review_data_validation__eatwell.coverage" NAME="Review data validation: eatwell Coverage Results" MODIFIED="1488295848449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_check_that_restaurant_is_not_nil__eatwell.coverage" NAME="Restaurant check that restaurant is not nil: eatwell Coverage Results" MODIFIED="1488271924151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Review_after_create_callback_after_create_should_work_as_expected__eatwell.coverage" NAME="Review after create callback after_create should work as expected: eatwell Coverage Results" MODIFIED="1488271049706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_GET_show__eatwell.coverage" NAME="RestaurantsController GET#show: eatwell Coverage Results" MODIFIED="1488285054320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_PUT_update_should_update_a_certain_review__eatwell.coverage" NAME="ReviewsController PUT update should update a certain review: eatwell Coverage Results" MODIFIED="1488291573467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
     <SUITE FILE_PATH="coverage/eatwell@ReviewsController_calc_rating_method__eatwell.coverage" NAME="ReviewsController calc rating method: eatwell Coverage Results" MODIFIED="1488233219589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
     <SUITE FILE_PATH="coverage/eatwell@ReviewsController_POST_create_creates_new_review_for_restaurant__eatwell.coverage" NAME="ReviewsController POST create creates new review for restaurant: eatwell Coverage Results" MODIFIED="1488227371034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Review_check_after_create_callback_after_create_should_work_as_expected__eatwell.coverage" NAME="Review check after create callback after_create should work as expected: eatwell Coverage Results" MODIFIED="1488270558915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
     <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_GET__show___eatwell.coverage" NAME="RestaurantsController GET 'show': eatwell Coverage Results" MODIFIED="1488212865429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_GET_should_render_the_index_view__eatwell.coverage" NAME="ReviewsController GET should render the index view: eatwell Coverage Results" MODIFIED="1488284896065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_check_that_restaurant_isnot_nil_shouldn_t_be_nil__eatwell.coverage" NAME="Restaurant check that restaurant isnot nil shouldn't be nil: eatwell Coverage Results" MODIFIED="1488271794112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
     <SUITE FILE_PATH="coverage/eatwell@POST_create_with_valid_params__eatwell.coverage" NAME="POST create with valid params: eatwell Coverage Results" MODIFIED="1488209562944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
-    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_POST_create_should_create_new_review__eatwell.coverage" NAME="ReviewsController POST create should create new review: eatwell Coverage Results" MODIFIED="1488228989036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
-    <SUITE FILE_PATH="coverage/eatwell@Restaurant__eatwell.coverage" NAME="Restaurant: eatwell Coverage Results" MODIFIED="1488208165404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
-    <SUITE FILE_PATH="coverage/eatwell@ReviewsController__eatwell.coverage" NAME="ReviewsController: eatwell Coverage Results" MODIFIED="1488229394283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
-    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_POST_create_creates_new_review__eatwell.coverage" NAME="ReviewsController POST create creates new review: eatwell Coverage Results" MODIFIED="1488232669508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_POST_create_should_create_new_review__eatwell.coverage" NAME="ReviewsController POST create should create new review: eatwell Coverage Results" MODIFIED="1488285601783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_GET_show_renders_the_new_view__eatwell.coverage" NAME="RestaurantsController GET#show renders the new view: eatwell Coverage Results" MODIFIED="1488273886808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_GET__eatwell.coverage" NAME="ReviewsController GET: eatwell Coverage Results" MODIFIED="1488279282982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_GET_should_render_the_new_view__eatwell.coverage" NAME="ReviewsController GET should render the new view: eatwell Coverage Results" MODIFIED="1488284967453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Review_test_update_rating_for_restaurant__eatwell.coverage" NAME="Review test update rating for restaurant: eatwell Coverage Results" MODIFIED="1488272932270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_GET_index_renders_the_index_view__eatwell.coverage" NAME="RestaurantsController GET#index renders the index view: eatwell Coverage Results" MODIFIED="1488273568076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_calc_rating_should_calc_rating_of_restaurant__eatwell.coverage" NAME="Restaurant calc rating should calc rating of restaurant: eatwell Coverage Results" MODIFIED="1488291766897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
     <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_GET__show__should_see_rating_0_as_default__eatwell.coverage" NAME="RestaurantsController GET 'show' should see rating 0 as default: eatwell Coverage Results" MODIFIED="1488213077990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
-    <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_POST_create__eatwell.coverage" NAME="RestaurantsController POST create: eatwell Coverage Results" MODIFIED="1488229811517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
-    <SUITE FILE_PATH="coverage/eatwell@RestaurantsController__eatwell.coverage" NAME="RestaurantsController: eatwell Coverage Results" MODIFIED="1488229821823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
-    <SUITE FILE_PATH="coverage/eatwell@Restaurant_type__model__eatwell.coverage" NAME="Restaurant type :model: eatwell Coverage Results" MODIFIED="1488202280770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_check_that_restaurant_is_not_nil_shouldn_t_be_nil__eatwell.coverage" NAME="Restaurant check that restaurant is not nil shouldn't be nil: eatwell Coverage Results" MODIFIED="1488272271044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@Restaurant_calc_rating_method_calculating_restaurant_rating__eatwell.coverage" NAME="Restaurant calc rating method calculating restaurant rating: eatwell Coverage Results" MODIFIED="1488269938029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
     <SUITE FILE_PATH="coverage/eatwell@ReviewsController_calc_rating_method_calculating_restaurant_rating__eatwell.coverage" NAME="ReviewsController calc rating method calculating restaurant rating: eatwell Coverage Results" MODIFIED="1488265777932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_GET_renders_the_show_view__eatwell.coverage" NAME="RestaurantsController GET renders the show view: eatwell Coverage Results" MODIFIED="1488285694141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@RestaurantsController_GET_new_renders_the_new_view__eatwell.coverage" NAME="RestaurantsController GET#new renders the new view: eatwell Coverage Results" MODIFIED="1488274709169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
     <SUITE FILE_PATH="coverage/eatwell@Run_spec__restaurant_spec___eatwell.coverage" NAME="Run spec 'restaurant_spec': eatwell Coverage Results" MODIFIED="1488202258832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
     <SUITE FILE_PATH="coverage/eatwell@ReviewsController_data_validation__eatwell.coverage" NAME="ReviewsController data validation: eatwell Coverage Results" MODIFIED="1488231434515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
-    <SUITE FILE_PATH="coverage/eatwell@POST_create__eatwell.coverage" NAME="POST create: eatwell Coverage Results" MODIFIED="1488210786500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_POST_create__eatwell.coverage" NAME="ReviewsController POST create: eatwell Coverage Results" MODIFIED="1488284879559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
+    <SUITE FILE_PATH="coverage/eatwell@ReviewsController_GET_should_render_the_show_view__eatwell.coverage" NAME="ReviewsController GET should render the show view: eatwell Coverage Results" MODIFIED="1488285153501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="eatwell" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -61,48 +101,28 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+            <state relative-caret-position="240">
+              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="restaurants_controller_spec.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/controllers/restaurants_controller_spec.rb">
+      <file leaf-file-name="review_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/review_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="8" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reviews_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/reviews_controller.rb">
+      <file leaf-file-name="restaurant_spec.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/models/restaurant_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="review.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/review.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="restaurant.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/restaurant.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="555">
+              <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -111,18 +131,48 @@
       <file leaf-file-name="factories.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/factories/factories.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="45">
+              <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="restaurant_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/restaurant_spec.rb">
+      <file leaf-file-name="rails_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reviews_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/reviews_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-638">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="restaurants_controller_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/restaurants_controller_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reviews_controller_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/reviews_controller_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -132,9 +182,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reviews</find>
       <find>bye</find>
       <find>change</find>
+      <find>reviews</find>
+      <find>reload</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,19 +214,22 @@
         <option value="$PROJECT_DIR$/spec/string_calculator_spec.rb" />
         <option value="$PROJECT_DIR$/lib/review.rb" />
         <option value="$PROJECT_DIR$/spec/support/favtory_girl.rb" />
-        <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/spec/review_spec.rb" />
         <option value="$PROJECT_DIR$/spec/restaurant_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories/restaurant.rb" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/factories/review.rb" />
-        <option value="$PROJECT_DIR$/spec/factories/factories.rb" />
-        <option value="$PROJECT_DIR$/spec/controllers/restaurants_controller_spec.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/controllers/reviews_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/review.rb" />
         <option value="$PROJECT_DIR$/app/controllers/reviews_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/models/review.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/factories.rb" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/models/review_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/restaurant.rb" />
+        <option value="$PROJECT_DIR$/app/models/review.rb" />
+        <option value="$PROJECT_DIR$/spec/models/restaurant_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/restaurants_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/reviews_controller_spec.rb" />
       </list>
     </option>
   </component>
@@ -193,8 +247,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="23" />
+    <option name="x" value="233" />
+    <option name="y" value="108" />
     <option name="width" value="1440" />
     <option name="height" value="827" />
   </component>
@@ -216,8 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -343,10 +395,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reviews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -384,7 +432,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,6 +471,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -432,8 +482,8 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v6.0.0/bin/node" />
   </component>
-  <component name="RunManager" selected="RSpec.ReviewsController calc rating method calculating restaurant rating: eatwell">
-    <configuration default="false" name="ReviewsController POST create creates new review: eatwell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.ReviewsController DELETE should delete review: eatwell">
+    <configuration default="false" name="Restaurant: eatwell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="eatwell" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -453,10 +503,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/reviews_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/restaurant_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ReviewsController POST create creates new review" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Restaurant" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -467,7 +517,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ReviewsController data validation: eatwell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="ReviewsController DELETE: eatwell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="eatwell" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -490,7 +540,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/reviews_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ReviewsController data validation" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ReviewsController DELETE" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -501,7 +551,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ReviewsController calculating restaurant rating: eatwell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="ReviewsController DELETE should delete review: eatwell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="eatwell" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -524,7 +574,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/reviews_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ReviewsController calculating restaurant rating" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ReviewsController DELETE should delete review" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -535,7 +585,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ReviewsController calc rating method: eatwell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="RestaurantsController POST create should create new restaurant: eatwell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="eatwell" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -555,10 +605,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/reviews_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/restaurants_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ReviewsController calc rating method" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="RestaurantsController POST create should create new restaurant" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -569,7 +619,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ReviewsController calc rating method calculating restaurant rating: eatwell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="RestaurantsController: eatwell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="eatwell" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -589,10 +639,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/reviews_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/restaurants_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ReviewsController calc rating method calculating restaurant rating" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="RestaurantsController" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -792,19 +842,19 @@
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: eatwell" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: eatwell" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: eatwell" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.ReviewsController POST create creates new review: eatwell" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.ReviewsController data validation: eatwell" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.ReviewsController calculating restaurant rating: eatwell" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.ReviewsController calc rating method: eatwell" />
-      <item index="8" class="java.lang.String" itemvalue="RSpec.ReviewsController calc rating method calculating restaurant rating: eatwell" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Restaurant: eatwell" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.ReviewsController DELETE: eatwell" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.ReviewsController DELETE should delete review: eatwell" />
+      <item index="7" class="java.lang.String" itemvalue="RSpec.RestaurantsController POST create should create new restaurant: eatwell" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec.RestaurantsController: eatwell" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.ReviewsController calc rating method calculating restaurant rating: eatwell" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.ReviewsController calc rating method: eatwell" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.ReviewsController calculating restaurant rating: eatwell" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.ReviewsController POST create creates new review: eatwell" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.ReviewsController data validation: eatwell" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.ReviewsController DELETE should delete review: eatwell" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.ReviewsController DELETE: eatwell" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.RestaurantsController: eatwell" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.RestaurantsController POST create should create new restaurant: eatwell" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Restaurant: eatwell" />
       </list>
     </recent_temporary>
   </component>
@@ -825,66 +875,77 @@
       <workItem from="1488200457206" duration="2354000" />
       <workItem from="1488202929253" duration="5758000" />
       <workItem from="1488212370570" duration="7679000" />
-      <workItem from="1488231411936" duration="4076000" />
+      <workItem from="1488231411936" duration="19320000" />
+      <workItem from="1488295607346" duration="2875000" />
+      <workItem from="1488298984981" duration="3007000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReviewsController_calc_rating_method__eatwell - 2017.02.28 at 00h 07m 01s.xml">
-      <configuration name="ReviewsController calc rating method: eatwell" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="RestaurantsController_POST_create_should_create_new_restaurant__eatwell - 2017.02.28 at 19h 03m 28s.xml">
+      <configuration name="RestaurantsController POST create should create new restaurant: eatwell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReviewsController_calc_rating_method_calculating_restaurant_rating__eatwell - 2017.02.28 at 00h 01m 53s.xml">
-      <configuration name="ReviewsController calc rating method calculating restaurant rating: eatwell" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="RestaurantsController__eatwell - 2017.02.28 at 19h 03m 36s.xml">
+      <configuration name="RestaurantsController: eatwell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReviewsController_calc_rating_method_calculating_restaurant_rating__eatwell - 2017.02.28 at 00h 02m 40s.xml">
-      <configuration name="ReviewsController calc rating method calculating restaurant rating: eatwell" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ReviewsController_DELETE__eatwell - 2017.02.28 at 19h 04m 36s.xml">
+      <configuration name="ReviewsController DELETE: eatwell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReviewsController_calc_rating_method_calculating_restaurant_rating__eatwell - 2017.02.28 at 00h 03m 01s.xml">
-      <configuration name="ReviewsController calc rating method calculating restaurant rating: eatwell" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ReviewsController_DELETE_should_delete_review__eatwell - 2017.02.28 at 19h 07m 56s.xml">
+      <configuration name="ReviewsController DELETE should delete review: eatwell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReviewsController_calc_rating_method_calculating_restaurant_rating__eatwell - 2017.02.28 at 00h 03m 25s.xml">
-      <configuration name="ReviewsController calc rating method calculating restaurant rating: eatwell" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ReviewsController_DELETE_should_delete_review__eatwell - 2017.02.28 at 19h 09m 01s.xml">
+      <configuration name="ReviewsController DELETE should delete review: eatwell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReviewsController_calc_rating_method_calculating_restaurant_rating__eatwell - 2017.02.28 at 00h 03m 55s.xml">
-      <configuration name="ReviewsController calc rating method calculating restaurant rating: eatwell" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ReviewsController_DELETE_should_delete_review__eatwell - 2017.02.28 at 19h 09m 14s.xml">
+      <configuration name="ReviewsController DELETE should delete review: eatwell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReviewsController_calc_rating_method_calculating_restaurant_rating__eatwell - 2017.02.28 at 00h 05m 30s.xml">
-      <configuration name="ReviewsController calc rating method calculating restaurant rating: eatwell" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ReviewsController_DELETE_should_delete_review__eatwell - 2017.02.28 at 19h 10m 06s.xml">
+      <configuration name="ReviewsController DELETE should delete review: eatwell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReviewsController_calc_rating_method_calculating_restaurant_rating__eatwell - 2017.02.28 at 00h 06m 01s.xml">
-      <configuration name="ReviewsController calc rating method calculating restaurant rating: eatwell" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ReviewsController_DELETE_should_delete_review__eatwell - 2017.02.28 at 19h 10m 17s.xml">
+      <configuration name="ReviewsController DELETE should delete review: eatwell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReviewsController_calc_rating_method_calculating_restaurant_rating__eatwell - 2017.02.28 at 00h 08m 30s.xml">
-      <configuration name="ReviewsController calc rating method calculating restaurant rating: eatwell" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ReviewsController_DELETE_should_delete_review__eatwell - 2017.02.28 at 19h 12m 02s.xml">
+      <configuration name="ReviewsController DELETE should delete review: eatwell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReviewsController_calc_rating_method_calculating_restaurant_rating__eatwell - 2017.02.28 at 09h 09m 40s.xml">
-      <configuration name="ReviewsController calc rating method calculating restaurant rating: eatwell" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ReviewsController_DELETE_should_delete_review__eatwell - 2017.02.28 at 19h 12m 12s.xml">
+      <configuration name="ReviewsController DELETE should delete review: eatwell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48791000" />
+    <option name="totallyTimeSpent" value="69917000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1440" height="827" extended-state="0" />
+    <frame x="233" y="108" width="1440" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35479257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285151" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2739628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35667107" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31406045" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285151" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4218134" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285151" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -921,13 +982,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/reviews/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -956,7 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1095">
           <caret line="73" column="3" lean-forward="true" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,14 +1176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/restaurants_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/reviews/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1154,20 +1199,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/review_spec.rb" />
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="77" lean-forward="false" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/reviews/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1177,66 +1208,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/factories/restaurant.rb" />
     <entry file="file://$PROJECT_DIR$/spec/factories/review.rb" />
-    <entry file="file://$PROJECT_DIR$/app/models/review.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/restaurants_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/reviews_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        <state relative-caret-position="240">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/restaurant.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/review.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/reviews_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/factories.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/restaurant_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-638">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/restaurants_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/reviews_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/factories.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/review_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/restaurant_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
           <folding />
         </state>
       </provider>

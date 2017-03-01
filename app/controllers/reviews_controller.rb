@@ -18,8 +18,6 @@ class ReviewsController < ApplicationController
   # GET /reviews/new
   def new
     @review = Review.new
-    # @reviews = Review.all
-    # @restaurant = Restaurant.find(params[:restaurant_id])
   end
 
   # GET /reviews/1/edit
@@ -31,8 +29,6 @@ class ReviewsController < ApplicationController
   def create
     @restaurant = Restaurant.find(params[:restaurant_id])
     @review = @restaurant.reviews.new(review_params)
-    restaurant_id = params[:restaurant_id]
-
 
     respond_to do |format|
       if @review.save

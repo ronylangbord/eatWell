@@ -59,6 +59,4 @@ describe ReviewsController, type: :controller do
   def attach_review_to_restaurant(restaurant, review)
     restaurant.reviews<<review
   end
-
-
 end

@@ -35,12 +35,6 @@ describe Restaurant, type: :model do
     end
   end
 
-  describe "check that restaurant is not nil" do
-    it "shouldn't be nil" do
-      expect(restaurant).not_to be_nil
-    end
-  end
-
   def attach_review_to_restaurant(restaurant, review)
     restaurant.reviews<<review
   end

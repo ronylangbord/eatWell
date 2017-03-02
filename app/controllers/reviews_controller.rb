@@ -6,8 +6,7 @@ class ReviewsController < ApplicationController
   # GET /reviews
   # GET /reviews.json
   def index
-    @restaurant = Restaurant.find(params[:restaurant_id])
-    @reviews = @restaurant.reviews
+     @reviews = @restaurant.reviews
   end
 
   # GET /reviews/1
@@ -27,12 +26,11 @@ class ReviewsController < ApplicationController
   # POST /reviews
   # POST /reviews.json
   def create
-    @restaurant = Restaurant.find(params[:restaurant_id])
     @review = @restaurant.reviews.new(review_params)
 
     respond_to do |format|
       if @review.save
-        format.html { redirect_to restaurant_reviews_url, notice: 'Review was successfully created.' }
+        format.html { redirect_to restaurant_reviews_path, notice: 'Review was successfully created.' }
         format.json { render :show, status: :created, location: @review }
       else
         format.html { render :new }
@@ -58,25 +56,14 @@ class ReviewsController < ApplicationController
   # DELETE /reviews/1
   # DELETE /reviews/1.json
   def destroy
-    @restaurant = Restaurant.find(params[:restaurant_id])
     @review = @restaurant.reviews.find(params[:id])
     @review.destroy
     respond_to do |format|
-      format.html { redirect_to @restaurant, notice: 'Review was successfully destroyed.' }
+      format.html { redirect_to restaurant_reviews_path, notice: 'Review was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
 
-  def calc_rating(restaurant_id)
-
-    @restaurant = Restaurant.find(restaurant_id)
-
-  unless @restaurant.reviews.empty?
-    @restaurant.rating = @restaurant.reviews.average(:rating)
-  end
-
-  @restaurant.save!
-end
 
 private
 
@@ -86,7 +73,6 @@ private
 
   # Use callbacks to share common setup or constraints between actions.
   def set_review
-    @restaurant = Restaurant.find(params[:restaurant_id])
     @review = @restaurant.reviews.find(params[:id])
   end
 

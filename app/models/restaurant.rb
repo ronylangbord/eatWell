@@ -1,11 +1,6 @@
 class Restaurant < ApplicationRecord
 
-  validates :name, :presence => true
-  validates :address, :presence => true
-  validates :rating, :presence => true
-  validates :cuisine, :presence => true
-  validates :accepts_10bis, :presence => true
-  validates :max_delivery_time, :presence => true
+  validates_presence_of :name, :address, :rating, :cuisine, :accepts_10bis, :max_delivery_time
 
   has_many :reviews, dependent: :destroy
 

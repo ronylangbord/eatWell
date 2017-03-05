@@ -15,11 +15,7 @@
 
 # Ignore Byebug command history file.
 .byebug_history
-.idea/vcs.xml
-.idea/runConfigurations/Development__eatwell.xml
-.idea/runConfigurations/Production__eatwell.xml
-.idea/runConfigurations/spec__eatwell.xml
-.idea/runConfigurations/test__eatwell.xml
+.idea
 
 # React on Rails
 npm-debug.log*

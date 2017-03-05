@@ -20,3 +20,10 @@
 .idea/runConfigurations/Production__eatwell.xml
 .idea/runConfigurations/spec__eatwell.xml
 .idea/runConfigurations/test__eatwell.xml
+
+# React on Rails
+npm-debug.log*
+node_modules
+
+# Generated js bundles
+/app/assets/webpack/*

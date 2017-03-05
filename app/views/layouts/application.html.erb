@@ -9,6 +9,8 @@
   </head>
 
   <body>
-    <%= yield %>
+  <%= yield %>
+  <%= react_component("Restaurant", prerender: false) %>
+    <div id="root"></div>
   </body>
 </html>

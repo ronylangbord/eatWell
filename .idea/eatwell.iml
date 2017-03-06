@@ -108,40 +108,6 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Restaurant: eatwell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="eatwell" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/restaurant_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Restaurant" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="ReviewsController DELETE: eatwell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="eatwell" />
@@ -278,6 +244,40 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="false" name="RestaurantsController POST create should succeed with correct data: eatwell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="eatwell" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/restaurants_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="RestaurantsController POST create should succeed with correct data" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
@@ -372,6 +372,20 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="addressable (vbundled(2.5.0)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/addressable-2.5.0/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/addressable-2.5.0/data" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/addressable-2.5.0/tasks" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/addressable-2.5.0/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/addressable-2.5.0/data" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/addressable-2.5.0/tasks" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="arel (vbundled(7.1.4)) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/arel-7.1.4/lib" />
@@ -444,6 +458,16 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/concurrent-ruby-1.0.4/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="connection_pool (vbundled(2.2.1)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/connection_pool-2.2.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/connection_pool-2.2.1/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -730,6 +754,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="public_suffix (vbundled(2.0.5)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/public_suffix-2.0.5/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/public_suffix-2.0.5/data" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/public_suffix-2.0.5/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/public_suffix-2.0.5/data" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="puma (vbundled(3.7.1)) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/puma-3.7.1/bin" />
@@ -828,6 +864,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="rainbow (vbundled(2.2.1)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/rainbow-2.2.1/ext" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/rainbow-2.2.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/rainbow-2.2.1/ext" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/rainbow-2.2.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="rake (vbundled(12.0.0)) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/rake-12.0.0/bin" />
@@ -862,6 +910,22 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/rb-inotify-0.9.8/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="react_on_rails (vbundled(6.7.1)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/react_on_rails-6.7.1/app" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/react_on_rails-6.7.1/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/react_on_rails-6.7.1/script" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/react_on_rails-6.7.1/rakelib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/react_on_rails-6.7.1/app" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/react_on_rails-6.7.1/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/react_on_rails-6.7.1/script" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.3.0/gems/react_on_rails-6.7.1/rakelib" />
         </SOURCES>
       </library>
     </orderEntry>

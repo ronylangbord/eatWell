@@ -16,6 +16,7 @@
 #
 default: &default
   adapter: postgresql
+  host: localhost
   encoding: unicode
   database: eatwell_development
   # For details on connection pooling, see rails configuration guide

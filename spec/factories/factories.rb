@@ -3,7 +3,7 @@ FactoryGirl.define do
     name                { Faker::App.name }
     address             { Faker::Address.street_address }
     max_delivery_time   { Faker::Number.digit }
-    cuisine             { Faker::Lorem.word }
+    cuisine             { 'American' }
     accepts_10bis       true
   end
 

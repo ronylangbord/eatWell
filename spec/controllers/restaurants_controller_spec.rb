@@ -5,6 +5,7 @@ describe RestaurantsController, type: :controller do
 
   let(:restaurant) { FactoryGirl.create(:restaurant) }
 
+
   describe "GET" do
     it "should render the index view" do
       get :index
@@ -29,17 +30,17 @@ describe RestaurantsController, type: :controller do
 
   describe "POST create" do
     it "should create new restaurant and verify on db" do
-
+      rest_params = FactoryGirl.attributes_for(:restaurant)
       expect{
-        post :create, params: { restaurant: restaurant.attributes }
+        post :create, params: { restaurant: rest_params }
       }.to change(Restaurant, :count).by(1)
     end
 
     it "should succeed with correct data" do
-       data = build(:restaurant)
-       post :create, params: { restaurant: data.as_json }
+       data = new_restaurant_data
+       post :create, params: { restaurant: data }
 
-      expect(response).to be_success
+      expect(response).to have_http_status(302)
 
     end
   end
@@ -49,7 +50,7 @@ describe RestaurantsController, type: :controller do
   end
 
   def restaurant_data(res)
-    res.as_json.symbolize_keys.slice(:name, :cuisine, :rating, :address, :max_delivery_time, :accepts_10bis)
+     res.as_json.symbolize_keys.slice(:name, :cuisine, :rating, :address, :max_delivery_time, :accepts_10bis)
   end
 
 end

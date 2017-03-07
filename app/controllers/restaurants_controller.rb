@@ -15,6 +15,7 @@ class RestaurantsController < ApplicationController
   # GET /restaurants/new
   def new
     @restaurant = Restaurant.new
+    # @options_for_select = Restaurant.cuisine_options
   end
 
   # GET /restaurants/1/edit

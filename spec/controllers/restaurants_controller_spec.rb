@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe RestaurantsController, type: :controller do
-  # render_views
+  render_views
 
   let(:restaurant) { FactoryGirl.create(:restaurant) }
 
@@ -29,10 +29,9 @@ describe RestaurantsController, type: :controller do
 
   describe "POST create" do
     it "should create new restaurant and verify on db" do
+
       expect{
-        post :create, params: {
-            # restaurant: FactoryGirl.attributes_for(:restaurant)
-             restaurant: build(:restaurant).as_json}
+        post :create, params: { restaurant: restaurant.attributes }
       }.to change(Restaurant, :count).by(1)
     end
 
@@ -41,7 +40,7 @@ describe RestaurantsController, type: :controller do
        post :create, params: { restaurant: data.as_json }
 
       expect(response).to be_success
-      #  expect(json).to include(:restaurant)
+
     end
   end
 

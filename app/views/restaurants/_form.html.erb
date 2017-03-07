@@ -18,7 +18,9 @@
 
   <div class="field">
     <%= f.label :cuisine %>
-    <%= f.text_field :cuisine %>
+    <%= f.select :cuisine, Restaurant::CUISINES %>
+
+
   </div>
 
 

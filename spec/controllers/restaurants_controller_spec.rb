@@ -39,9 +39,24 @@ describe RestaurantsController, type: :controller do
     it "should succeed with correct data" do
        data = new_restaurant_data
        post :create, params: { restaurant: data }
+       expect(response).to have_http_status(302)
+       expect(Restaurant.last.name).to eq(data[:name])
+       expect(Restaurant.last.address).to eq(data[:address])
+       expect(Restaurant.last.accepts_10bis).to eq(data[:accepts_10bis])
+       expect(Restaurant.last.max_delivery_time).to eq(data[:max_delivery_time])
+    end
 
-      expect(response).to have_http_status(302)
-
+    it "should succeed with correct data - json format" do
+        json = { :format => 'json', :restaurant => {
+              :name => "Rony",
+              :address => "Haim Cohen 22",
+              :cuisine => "Italian",
+              :max_delivery_time => 80,
+              :accepts_10bis => true
+        }}
+      post :create, json
+      expect(response.status).to eq(201)
+      expect(JSON.parse(response.body)['name']).to eq('Rony')
     end
   end
 

@@ -53,13 +53,12 @@ describe ReviewsController, type: :controller do
     end
   end
 
-
   describe "POST create" do
     it "should create correctly review's name" do
-      review_local = FactoryGirl.build(:review, name: 'Elad')
-      attach_review_to_restaurant(restaurant, review)
-      post :create, params: {restaurant_id: restaurant.id, id: review.id, review: review_local}
-      expect(review.name).to eq('Elad')
+      review_attr = FactoryGirl.attributes_for(:review)
+      expect{
+        post :create, params: { restaurant_id: restaurant.id, review: review_attr}
+      }.to change(Review, :count).by(1)
     end
 
     it "should update the review's rating" do

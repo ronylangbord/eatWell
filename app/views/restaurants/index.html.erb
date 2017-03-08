@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<%= react_component("Header", props: { text: "hey", collection: @restaurants }, prerender: false) %>
+<%= react_component("Header", props: { collection: @restaurants }, prerender: false) %>
 <%= react_component("List", props: {collection: @restaurants}, prerender: false) %>
 
 

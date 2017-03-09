@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1351efc3-c72d-4929-98eb-ea52b15dd7ef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/restaurants.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/restaurants.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -109,16 +108,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="List.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="List.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app/bundles/HelloWorld/components/List.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="117" column="46" lean-forward="false" selection-start-line="117" selection-start-column="46" selection-end-line="117" selection-end-column="46" />
+            <state relative-caret-position="390">
+              <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding>
-                <element signature="n#!!block;n#render#0;n#RestaurantItem#0" expanded="false" />
-                <marker date="1488985703000" expanded="true" signature="1996:2555" ph="..." />
-                <marker date="1488985703000" expanded="true" signature="2390:2536" ph="..." />
-                <marker date="1488985703000" expanded="true" signature="2415:2513" ph="..." />
+                <element signature="e#4394#5193#0" expanded="false" />
+                <marker date="1489063141000" expanded="true" signature="1722:3816" ph="..." />
+                <marker date="1489063141000" expanded="true" signature="3517:3797" ph="..." />
+                <marker date="1489063141000" expanded="true" signature="3542:3774" ph="..." />
               </folding>
             </state>
           </provider>
@@ -134,11 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="restaurants.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="restaurants.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/restaurants.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+            <state relative-caret-position="525">
+              <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -157,8 +156,11 @@
       <find>delivery</find>
       <find>cuisineOpt</find>
       <find>filter_items</find>
-      <find>setState</find>
       <find>filter_item</find>
+      <find>button</find>
+      <find>map</find>
+      <find>props</find>
+      <find>setState</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -212,8 +214,8 @@
         <option value="$PROJECT_DIR$/spec/controllers/restaurants_controller_spec.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/reviews_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/restaurants/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/restaurants.scss" />
         <option value="$PROJECT_DIR$/client/app/bundles/HelloWorld/components/List.jsx" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/restaurants.scss" />
       </list>
     </option>
   </component>
@@ -235,10 +237,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="817" />
+    <option name="x" value="27" />
+    <option name="y" value="30" />
+    <option name="width" value="1736" />
+    <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -823,7 +825,7 @@
       <workItem from="1488731581339" duration="2759000" />
       <workItem from="1488787186523" duration="1498000" />
       <workItem from="1488790292172" duration="19329000" />
-      <workItem from="1488817586534" duration="49413000" />
+      <workItem from="1488817586534" duration="65469000" />
     </task>
     <servers />
   </component>
@@ -860,7 +862,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145878000" />
+    <option name="totallyTimeSpent" value="161934000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,10 +874,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1440" height="817" extended-state="6" />
+    <frame x="27" y="30" width="1736" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30329043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25029516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31439894" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1260,24 +1262,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/restaurants.scss">
+    <entry file="file://$PROJECT_DIR$/client/app/bundles/HelloWorld/components/List.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="390">
+          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <element signature="e#4394#5193#0" expanded="false" />
+            <marker date="1489063141000" expanded="true" signature="1722:3816" ph="..." />
+            <marker date="1489063141000" expanded="true" signature="3517:3797" ph="..." />
+            <marker date="1489063141000" expanded="true" signature="3542:3774" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/bundles/HelloWorld/components/List.jsx">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/restaurants.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="117" column="46" lean-forward="false" selection-start-line="117" selection-start-column="46" selection-end-line="117" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!block;n#render#0;n#RestaurantItem#0" expanded="false" />
-            <marker date="1488985703000" expanded="true" signature="1996:2555" ph="..." />
-            <marker date="1488985703000" expanded="true" signature="2390:2536" ph="..." />
-            <marker date="1488985703000" expanded="true" signature="2415:2513" ph="..." />
-          </folding>
+        <state relative-caret-position="525">
+          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

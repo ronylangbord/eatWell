@@ -27,6 +27,7 @@
 }
 
 .list{
+  position: relative;
 
     .filters-wrapper{
       position: relative;
@@ -34,6 +35,7 @@
       height: 50px;
       top: 25%;
       margin: auto;
+      background-color: lightcoral;
 
       .filters-sm-wrapper{
         position: relative;
@@ -43,16 +45,14 @@
       }
 
       .filter-item{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         position: relative;
         float: left;
         display: inline-block;
         width: 30%;
         margin: 10px 10px 10px 10px;
-        //@include make-float-boxes;
       }
     }
-
-
 
 
   .restaurants-box{

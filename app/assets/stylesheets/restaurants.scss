@@ -1,116 +1,130 @@
-@mixin make-float-boxes(){
-  float: left;
-  display: inline-block;
+$primary_color: white;
+$filter_box_color: lightcoral;
+$restaurant_card_text_color: black;
+
+
+h2 {
+  color: $primary_color;
+  size: 48px;
 }
 
-@mixin image-no-repeat($url){
-  background-image: url($url);
-  background-repeat: no-repeat;
-
+h3 {
+  color: $restaurant_card_text_color;
+  font-size: 48px;
 }
-.header{
+
+
+.header {
+  background: url('header.png');
+  background-size: cover;
+  height: 200px;
   position: relative;
   width: 100%;
-  height: 200px;
-  background-size: cover;
-  @include image-no-repeat('header.png');
 
   .header-text {
-    position: absolute;
-    width: 100%;
+    background: url('header-text.png') center center no-repeat;
     height: 50%;
+    position: relative;
     top: 25%;
-    background-position: center;
-    @include image-no-repeat('header-text.png');
+    width: 100%;
   }
-
 }
 
-.list{
+.list {
   position: relative;
 
-    .filters-wrapper{
-      position: relative;
-      width:100%;
-      height: 50px;
-      top: 25%;
+  .filters-wrapper {
+    background-color: $filter_box_color;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    top: 25%;
+    width: 100%;
+
+    .filters-sm-wrapper {
+      display: flex;
+      flex-direction: row;
+      height: 80%;
+      justify-content: center;
       margin: auto;
-      background-color: lightcoral;
-
-      .filters-sm-wrapper{
-        position: relative;
-        width: 50%;
-        height: 100%;
-        margin: auto;
-      }
-
-      .filter-item{
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        position: relative;
-        float: left;
-        display: inline-block;
-        width: 30%;
-        margin: 10px 10px 10px 10px;
-      }
+      position: relative;
+      top: 10%;
+      width: 100%;
     }
 
+    .filter-item {
+      height: 100%;
+      margin: 5px 5px 5px 5px;
+      width: 30%;
 
-  .restaurants-box{
-    position: relative;
-    width: 55%;
-    padding: 20px 0 0 20px;
-
-    .restaurant-item {
-      position: relative;
-      width: 90%;
-      height: 100px;
-      background-color: white;
-      margin: 10px 10px 10px 10px;
-      border-radius: 5px;
-
-      .restaurant-icon{
-        position: relative;
-        font-family: 'MyWebFont';
-        text-align: center;
-        font-size: 90px;
-        width: 15%;
-        height: 100%;
-        @include make-float-boxes;
-      }
-      .restaurant-wrapper {
-        position: relative;
-        width: 30%;
-        height: 50%;
-        top:25%;
-        @include make-float-boxes;
-
-        .restaurant-sm-wrapper{
-            position: relative;
-            width: 100%;
-            height: 50%;
-
-          .restaurant-name {
-            display: inline-block;
-            font-size: 18px;
-            margin-left: 5px;
-          }
-
-          .restaurant-accepts10-bis {
-            display: inline-block;
-            height: 10px;
-            width:20px;
-            margin-left: 10px;
-            @include image-no-repeat('tenbis.png');
-          }
-        }
-
-        .restaurant-rating {
-          margin: 5px 0 0 5px;
-          position: relative;
-        }
+      .text-wrapper {
+        margin: 5px 5px 10px 10px;
       }
     }
   }
 
+  .select_custom {
+    background: $primary_color;
+    border: transparent;
+    border-radius: 5px;
+    height: 50%;
+    margin-left: 5px;
+    width: 100%;
+  }
 
+  .restaurants-box {
+    padding: 20px 0 0 20px;
+    width: 30%;
+
+    .restaurant-item {
+      background-color: $primary_color;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: row;
+      height: 100px;
+      margin: auto;
+      margin-bottom: 10px;
+      position: relative;
+      width: 90%;
+
+      .restaurant-wrapper {
+        height: 50%;
+        position: relative;
+        top: 10%;
+        width: 100%;
+      }
+
+      .restaurant-sm-wrapper {
+        height: 50%;
+        position: relative;
+        width: 100%;
+      }
+
+      .restaurant-name {
+        display: inline-block;
+        margin-left: 5px;
+      }
+
+      .restaurant-accepts10-bis {
+        background: url('tenbis.png') no-repeat;
+        display: inline-block;
+        height: 10px;
+        margin-left: 10px;
+        width: 20px;
+      }
+
+      .restaurant-rating {
+        margin: 5px 0 0 5px;
+        position: relative;
+      }
+
+      .restaurant-icon {
+        font-family: 'MyWebFont';
+        font-size: 90px;
+        height: 100%;
+        text-align: center;
+        width: 30%;
+      }
+    }
+  }
 }

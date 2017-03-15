@@ -13,7 +13,6 @@ h3 {
   font-size: 48px;
 }
 
-
 .header {
   background: url('header.png');
   background-size: cover;
@@ -26,8 +25,17 @@ h3 {
     height: 50%;
     position: relative;
     top: 25%;
-    width: 100%;
+    width: 50%;
+    margin: auto;
   }
+}
+
+.add_restaurant_button {
+  position: absolute;
+  right: 0%;
+  background: url('button_add_restaurant.png') no-repeat;
+  width:100%;
+  height:100%;
 }
 
 .list {
